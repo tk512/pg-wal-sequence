@@ -18,4 +18,4 @@ $ echo $?
 command[check_wal_sequence_server1]=/usr/lib/nagios/plugins/pg-wal-sequence.py \
                                     --directory/home/pitr/server1-wal
 ```
-4. Now - the check_wal_sequence_server1 command has been installed and can be used from Nagios itself.
+Now - the check_wal_sequence_server1 command has been installed and can be used from Nagios itself.
