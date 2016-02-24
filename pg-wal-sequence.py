@@ -26,7 +26,7 @@ GAP_THRESHOLD = 3600*24          # Gap threshold value
 
 class NagiosStatus(Exception):
     def __init__(self, status, message):
-        print >> sys.stderr, message
+        print >> sys.stdout, message
         sys.exit(status)
 
 def getWalNo(fileName):
